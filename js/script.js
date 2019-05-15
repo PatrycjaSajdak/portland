@@ -1,4 +1,4 @@
-const API_PRODUCTS = 'http://www.mocky.io/v2/5cd809fc300000902574cd14';
+const API_PRODUCTS = 'https://www.mocky.io/v2/5cd809fc300000902574cd14';
 const PRICE_START = 0;
 const PRICE_END = 1000000;
 
