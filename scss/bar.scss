@@ -1,0 +1,151 @@
+.topBar__part {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    .navTopBar {
+        height: 100%;
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        position: relative;
+        img {
+            display: flex;
+        }
+    }
+}
+.topBar__logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    img {
+        height: 25px;
+    }
+}
+.cardWrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 15px;
+    cursor: pointer;
+    &__cardContent {
+        position: relative;
+        display: flex;
+        align-items: center;
+        .card {
+            border: 0;
+            img {
+                width: 18px;
+            }
+        }
+        .numberWrap {
+            position: absolute;
+            top: -6px;
+            left: 12px;
+            &__number {
+                width: 14px;
+                height: 14px;
+                background-color: #ffffff;
+                border-radius: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 0.5px solid #a1a8bd;
+                .count {
+                    font-size: 9px;
+                    color: 343e5c;
+                    font-weight: 400;
+                    letter-spacing: 0.55px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+.topBar__middle {
+    width: 60%;
+    display: flex;
+    ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        li {
+            display: flex;
+            padding: 0 2%;
+            a {
+                text-decoration: none;
+                h2 {
+                    color: #343e5c;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .topBar__part {
+        width: 20%;
+        .navTopBar {
+            display: none;
+        }
+    }
+    .topBar__part--left {
+        justify-content: flex-start;
+    }
+
+    .topBar__part--right {
+        justify-content: flex-end;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .topBar__middle {
+        display: none;
+    }
+    .topBar__part {
+        display: flex;
+        width: 50%;
+        padding: 0 15px;
+
+        .topBar__logo {
+            justify-content: flex-start;
+            padding-left: 15px;
+        }
+    }
+    .topBar__part--right {
+        justify-content: flex-end;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .container-fluid .row .topBarWrap .topBar {
+        position: relative;
+    }
+    .topBar__part {
+        position: static;
+    }
+    .topbBar__part--left {
+        .navTopBar {
+            padding-bottom: 15px;
+            align-items: flex-end;
+        }
+        .topBar__logo {
+            width: 100%;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .topBar__part--right {
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

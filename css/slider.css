@@ -1,0 +1,92 @@
+.slideContainer {
+  width: 100%;
+  z-index: 0;
+  box-shadow: 0px 3px 8px 2px #0000006b; }
+
+.sliderWrap {
+  height: 500px;
+  width: 100%;
+  padding: 0; }
+  .sliderWrap #carouselExampleCaptions {
+    height: 100%; }
+    .sliderWrap #carouselExampleCaptions .carousel-control-prev {
+      z-index: 2; }
+    .sliderWrap #carouselExampleCaptions .carousel-control-next {
+      z-index: 2; }
+    .sliderWrap #carouselExampleCaptions .carousel-indicators {
+      z-index: 1; }
+      .sliderWrap #carouselExampleCaptions .carousel-indicators .carouselNumber {
+        width: 8px;
+        height: 8px;
+        border: 2px solid #ffffff;
+        opacity: 0.5;
+        background-color: transparent;
+        border-radius: 10px;
+        margin-bottom: 30px; }
+      .sliderWrap #carouselExampleCaptions .carousel-indicators .active {
+        background-color: white;
+        border: 2px solid white; }
+    .sliderWrap #carouselExampleCaptions .carousel-inner {
+      height: 100%;
+      background: #1c1e23;
+      z-index: 0; }
+      .sliderWrap #carouselExampleCaptions .carousel-inner .carousel-item {
+        height: 100%; }
+        .sliderWrap #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+          width: 100%;
+          bottom: 0;
+          right: initial;
+          left: 0;
+          height: 100%;
+          justify-content: center;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          position: relative;
+          background: #000; }
+          .sliderWrap #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselTitle {
+            height: 40%;
+            display: flex;
+            align-items: flex-end;
+            width: 100%;
+            text-align: start;
+            justify-content: center; }
+            .sliderWrap #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselTitle h5 {
+              font-size: 42px;
+              font-weight: 400;
+              color: #ffffff;
+              text-align: center; }
+          .sliderWrap #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselUndertitle {
+            height: 60%;
+            align-items: flex-start;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            width: 60%; }
+            .sliderWrap #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselUndertitle p {
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              padding: 5% 0;
+              text-align: center; }
+            .sliderWrap #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselUndertitle .buttonround {
+              position: absolute;
+              bottom: 106px;
+              color: #ffffff;
+              font-size: 11px;
+              font-weight: 400;
+              text-transform: uppercase;
+              letter-spacing: 1.1px;
+              justify-content: center; }
+
+@media only screen and (max-width: 576px) {
+  .slideContainer #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselTitle {
+    height: 50%;
+    padding: 0 20%; }
+    .slideContainer #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselTitle h5 {
+      font-size: 40px; }
+  .slideContainer #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselUndertitle {
+    width: 100%;
+    height: 50%; }
+    .slideContainer #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselUndertitle p {
+      font-size: 12px; } }

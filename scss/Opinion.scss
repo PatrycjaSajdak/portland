@@ -1,0 +1,117 @@
+.opinionContainer {
+    background-color: #ffffff;
+    .titleBlock {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 3% 0;
+        .titleOpinion {
+            color: #222328;
+            font-size: 32px;
+            font-weight: 700;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0;
+        }
+        .titleDescription {
+            color: #b9bed1;
+            font-family: "Crimson Text";
+            font-size: 16px;
+            font-style: italic;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .opinionBlock {
+        display: flex;
+        padding-bottom: 3%;
+        .opinionWrap {
+            &--Left {
+                padding: 3% 3% 3% 5%;
+            }
+        }
+    }
+}
+.customerInformation {
+    display: flex;
+    padding: 0 1%;
+    width: 100%;
+    padding-bottom: 15px;
+    .customerImage {
+        padding-right: 15px;
+    }
+}
+.customerData {
+    padding-right: 15px;
+    &__customerNameWrap {
+        .clientName {
+            margin: 0;
+            color: #3a405b;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+    .customerSpecializationWrap {
+        .clientSpecialization {
+            margin: 0;
+            color: #b9bed1;
+            font-size: 14px;
+            font-style: italic;
+        }
+    }
+}
+.opinionTextWrap {
+    .opinionText {
+        color: #6e6e6e;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+
+    .bottom .opinionContainer {
+        .opinionBlock {
+            .opinionWrap--Left {
+                padding: 15px 3% 15px 3%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .titleBlock {
+        .titleDescription {
+            display: none;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .bottom .opinionContainer {
+        .titleBlock {
+            .titleOpinion {
+                font-size: 21px;
+            }
+        }
+        .opinionWrap {
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0 5%;
+            .opinionTextWrap .opinionText {
+                font-size: 13px;
+            }
+            .opinionfield--sizeRight {
+                padding: 3% 3% 3% 10%;
+            }
+            .opinionfield--bothSize {
+                padding: 3% 3% 3% 10%;
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.navBarContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 3% 0; }
+  .navBarContainer .navBarWrap {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    background-color: #ffffff;
+    padding: 15px; }
+    .navBarContainer .navBarWrap .optionWrap {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end; }
+      .navBarContainer .navBarWrap .optionWrap .choosePrice {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0; }
+        .navBarContainer .navBarWrap .optionWrap .choosePrice label {
+          color: #a1a8bd;
+          font-size: 11px;
+          font-weight: 400;
+          text-transform: uppercase;
+          letter-spacing: 1.1px;
+          margin-bottom: 0;
+          padding-right: 15px; }
+        .navBarContainer .navBarWrap .optionWrap .choosePrice .priceWrap {
+          width: 60px;
+          height: 27px;
+          background-color: #f0f2f7;
+          border: 1px solid #e3e8f0;
+          margin: 0;
+          border-radius: 16px;
+          color: #aaaead;
+          display: flex;
+          text-align: center;
+          font-size: 14px; }
+        .navBarContainer .navBarWrap .optionWrap .choosePrice p {
+          color: #343e5c;
+          font-size: 11px;
+          font-weight: 400;
+          text-transform: uppercase;
+          letter-spacing: 1.1px;
+          margin: 0 6px; }
+
+@media only screen and (max-width: 1024px) {
+  .navBarContainer {
+    height: auto; }
+  .navBarContainer .navBarWrap .elementsContainer__CategoriesContainer .choosePrice {
+    justify-content: flex-end; }
+    .navBarContainer .navBarWrap .elementsContainer__CategoriesContainer .choosePrice label {
+      margin: 0; }
+  .navBarContainer .navBarWrap .elementsContainer__CategoriesContainer .shoppimg {
+    padding-right: 0; }
+    .navBarContainer .navBarWrap .elementsContainer__CategoriesContainer .shoppimg label {
+      margin: 0; } }
+
+@media only screen and (max-width: 768px) {
+  .productContainer .navBarContainer .navBarWrap {
+    flex-wrap: wrap;
+    padding: 0; }
+  .navBarContainer .navBarWrap .optionWrap {
+    width: 100%; }
+  .navBarContainer .navBarWrap .optionWrap {
+    width: 100%;
+    border: 0; }
+    .navBarContainer .navBarWrap .optionWrap .choosePrice {
+      padding: 15px 15px;
+      width: 100%;
+      justify-content: flex-start;
+      border-top: 1px solid #f0f2f6; }
+    .navBarContainer .navBarWrap .optionWrap .shoppimg {
+      width: 1000%;
+      justify-content: flex-start;
+      border-top: 1px solid #f0f2f6;
+      align-items: center;
+      padding: 15px 0; }
+      .navBarContainer .navBarWrap .optionWrap .shoppimg label {
+        margin: 0; } }
+
+@media only screen and (max-width: 400px) {
+  .navBarContainer .navBarWrap .optionWrap {
+    flex-wrap: wrap;
+    flex-direction: column; }
+    .navBarContainer .navBarWrap .optionWrap .choosePrice {
+      width: 100%; } }
