@@ -1,3 +1,3 @@
 # portland
 
-[DEMO](https://www.patrycjasajdak.netlify.com)
+[DEMO](https://patrycjasajdak.netlify.com)
