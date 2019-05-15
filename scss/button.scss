@@ -13,6 +13,7 @@
     text-transform: uppercase;
     letter-spacing: 1.1px;
 }
+
 @media only screen and (max-width: 576px) {
     .sliderContainer #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselUndertitle .buttonround {
         height: 29px;
@@ -20,6 +21,7 @@
         bottom: 96px;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .sliderContainer #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselUndertitle .buttonround {
         height: 35px;
