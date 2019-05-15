@@ -1,0 +1,91 @@
+.castumerOpinionConteiner {
+  background-color: #ffffff; }
+  .castumerOpinionConteiner__textMainCastomerField {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3% 0; }
+    .castumerOpinionConteiner__textMainCastomerField .textMain {
+      color: #222328;
+      font-size: 32px;
+      font-weight: 700;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .castumerOpinionConteiner__textMainCastomerField .textMainDescription {
+      color: #b9bed1;
+      font-family: "Crimson Text";
+      font-size: 16px;
+      font-style: italic;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .castumerOpinionConteiner__opinionConteiner {
+    display: flex;
+    padding-bottom: 3%; }
+    .castumerOpinionConteiner__opinionConteiner .opinionfield--sizeLeft {
+      padding: 3% 3% 3% 5%; }
+    .castumerOpinionConteiner__opinionConteiner .opinionfield--bothSize {
+      padding: 3%; }
+    .castumerOpinionConteiner__opinionConteiner .opinionfield--sizeRight {
+      padding: 3% 5% 3% 3%; }
+
+.opinionfield__customerInformation {
+  display: flex;
+  padding: 0 1%;
+  width: 100%;
+  padding-bottom: 15px; }
+  .opinionfield__customerInformation .customerInformation__image {
+    padding-right: 15px; }
+
+.customerInformation__data {
+  padding-right: 15px; }
+  .customerInformation__data__customerName .clientName {
+    margin: 0;
+    color: #3a405b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; }
+  .customerInformation__data__customerSpecialization .cilentSpecialization {
+    margin: 0;
+    color: #b9bed1;
+    font-family: "Crimson Text";
+    font-size: 14px;
+    font-style: italic; }
+
+.opinionfield__customerOpinion .opinionText {
+  color: #3a405b;
+  font-family: "Crimson Text - Roman";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; }
+
+@media only screen and (max-width: 1200px) {
+  .footer .castumerOpinionConteiner .castumerOpinionConteiner__opinionConteiner .opinionfield--sizeRight {
+    padding: 15px 3% 15px 10%; }
+  .footer .castumerOpinionConteiner .castumerOpinionConteiner__opinionConteiner .opinionfield--sizeLeft {
+    padding: 15px 3% 15px 10%; }
+  .footer .castumerOpinionConteiner .castumerOpinionConteiner__opinionConteiner .opinionfield--bothSize {
+    padding: 15px 10% 15px 3%; } }
+
+@media only screen and (max-width: 1024px) {
+  .castumerOpinionConteiner__textMainCastomerField .textMainDescription {
+    display: none; } }
+
+@media only screen and (max-width: 768px) {
+  .footer .castumerOpinionConteiner .castumerOpinionConteiner__textMainCastomerField .textMain {
+    font-size: 21px; }
+  .footer .castumerOpinionConteiner .castumerOpinionConteiner__opinionConteiner {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10%; }
+    .footer .castumerOpinionConteiner .castumerOpinionConteiner__opinionConteiner .opinionfield__customerOpinion .opinionText {
+      font-size: 13px; }
+    .footer .castumerOpinionConteiner .castumerOpinionConteiner__opinionConteiner .opinionfield--sizeRight {
+      padding: 3% 3% 3% 10%; }
+    .footer .castumerOpinionConteiner .castumerOpinionConteiner__opinionConteiner .opinionfield--bothSize {
+      padding: 3% 3% 3% 10%; } }

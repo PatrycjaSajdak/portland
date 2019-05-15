@@ -1,0 +1,26 @@
+.changePageContainer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%; }
+  .changePageContainer .pagination {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 5px;
+    background-color: #ffffff; }
+    .changePageContainer .pagination .pageItemChange {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .changePageContainer .pagination .pageItemChange button {
+        border: 0;
+        background-color: #ffffff;
+        color: #b8bfd3;
+        height: 100%;
+        width: 100%; }

@@ -1,0 +1,75 @@
+.list-group {
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  width: 270px; }
+  .list-group .list-group-item {
+    height: 48px;
+    color: #343e5c;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 42px;
+    padding: 0 0 0 20px;
+    display: flex;
+    justify-content: flex-start; }
+  .list-group .active {
+    background-color: #f0f2f7;
+    color: #a1a8bd;
+    border-color: #a1a8bd;
+    border: 0; }
+
+.chooseeField {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center; }
+
+.choosee {
+  margin-right: 5%; }
+
+.badgeField {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%; }
+  .badgeField .badge {
+    display: flex;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #b8bfd3;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 36px; }
+
+.list-group__categories__text {
+  width: 50%;
+  height: 100%; }
+
+.list-group__Categories {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%; }
+  .list-group__Categories a {
+    text-decoration: none;
+    color: #2754eb;
+    font-size: 11px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1.1px; }
+
+.list-group-item--theSameline {
+  display: flex;
+  flex-wrap: nowrap; }
+  .list-group-item--theSameline .list-group-item__part {
+    width: 50%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }

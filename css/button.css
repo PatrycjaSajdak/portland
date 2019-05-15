@@ -1,0 +1,26 @@
+.buttonround {
+  height: 42px;
+  width: 165px;
+  background-color: #2754eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 21px;
+  border-color: #2754eb;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.1px; }
+
+@media only screen and (max-width: 576px) {
+  .sliderContainer #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselUndertitle .buttonround {
+    height: 29px;
+    width: 100px;
+    bottom: 96px; } }
+
+@media only screen and (max-width: 768px) {
+  .sliderContainer #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .carouselUndertitle .buttonround {
+    height: 35px;
+    width: 144px;
+    bottom: 96px; } }
